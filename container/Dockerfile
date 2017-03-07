@@ -6,8 +6,9 @@ EXPOSE 8080/tcp 8443/tcp 8880/tcp 8843/tcp 3478/udp 8081/tcp 8082/tcp
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN echo "deb http://www.ubnt.com/downloads/unifi/debian unifi5 ubiquiti" > \
+RUN echo "deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti" > \
   /etc/apt/sources.list.d/ubiquiti.list && \
+  apt-key adv --keyserver keyserver.ubuntu.com --recv 06E85760C0A52C50 && \
   echo "deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen" > \
   /etc/apt/sources.list.d/mongodb.list && \
   apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50 && \
