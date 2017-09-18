@@ -1,4 +1,4 @@
-# Latest Release/Version: 5.4.11
+# Latest Release/Version: 5.5.20
 
 # How to run UniFi Docker Container?
 ```
