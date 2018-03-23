@@ -1,17 +1,19 @@
-# Latest Release/Version: 5.5.20
+# Latest Release/Version: 5.6.30
+## Last Updated: 3-23-2017
 
 # How to run UniFi Docker Container?
 ```
+# Assuming you have created an empty dir: /docker/unifi
 docker run --name=unifi -it -d \
     -p 8080:8080 \
     -p 8443:8443 \
     -p 8880:8880 \
     -p 8843:8843 \
-    -v /unifi:/var/lib/unifi \
+    -v /docker/unifi:/usr/lib/unifi/data \
 ventz/unifi
 ```
 
-# Use the controller with your Ubiquity AP:
+# Use the controller with your Ubiquiti AP:
 SSH to your AP, and set the controller inform URL:
 ```
 set-inform http://IP-or-FQDN:8080/inform
@@ -35,7 +37,7 @@ https://help.ubnt.com/hc/en-us/articles/204909754-UniFi-Layer-3-methods-for-UAP-
 
 
 # Supported Products
-UAP, UAP-AC, UAP-AC-EDU, UAP-AC-LITE, UAP-AC-LR, UAP-AC Outdoor, UAP-AC-PRO, UAP-AC-M, UAP-AC-M-PRO, US-8, and US-8-60W, UAP-IW, UAP-LR, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, US-16-150W, US-24-250W, US-24-500W, US-48-500W, US-48-750W, US-8-150W, USG, USG-PRO-4
+UAP, UAP-AC-EDU, UAP–AC–IW, UAP-AC-LITE, UAP-AC-LR, UAP-AC-M, UAP-AC-M-PRO, UAP-AC-PRO, UAP‑HD, UAP-IW, UAP-LR, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, UAP‑SHD, US-16-150W, US‑16‑XG, US-24, US-24-250W, US-24-500W, US-48, US-48-500W, US-48-750W, US-8, US-8-150W, US-8-60W, USG, USG-PRO-4
 
 
 # Docker Ports/Firewall
@@ -56,22 +58,12 @@ tcp/27117 = (INTERNAL) MongoDB service
 udp/3478 = STUN Service
 ```
 
-Ubiquity ports information: 
+Ubiquiti ports information: 
 
 https://help.ubnt.com/hc/en-us/articles/204910084-UniFi-Change-Default-Ports-for-Controller-and-UAPs
 
 # Docker Volumes/Overrides
 ```
 Configuration Data (+ other data - work dir, logs, etc.)
-/var/lib/unifi
-```
-
-```
-Log Files:
-/var/log/unifi
-```
-
-```
-Run Files:
-/var/run/unifi
+/usr/lib/unifi/data
 ```
