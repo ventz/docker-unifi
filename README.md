@@ -1,5 +1,5 @@
-# Latest Release/Version: 5.6.30
-## Last Updated: 3-23-2017
+# Latest Release/Version: 5.6.37
+## Last Updated: 5-10-2018
 
 # How to run UniFi Docker Container?
 ```
