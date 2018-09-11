@@ -1,5 +1,5 @@
-# Latest Release/Version: 5.6.37
-## Last Updated: 5-10-2018
+# Latest Release/Version: 5.6.39
+## Last Updated: 6-25-2018
 
 # How to run UniFi Docker Container?
 ```
@@ -37,8 +37,7 @@ https://help.ubnt.com/hc/en-us/articles/204909754-UniFi-Layer-3-methods-for-UAP-
 
 
 # Supported Products
-UAP, UAP-AC-EDU, UAP–AC–IW, UAP-AC-LITE, UAP-AC-LR, UAP-AC-M, UAP-AC-M-PRO, UAP-AC-PRO, UAP‑HD, UAP-IW, UAP-LR, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, UAP‑SHD, US-16-150W, US‑16‑XG, US-24, US-24-250W, US-24-500W, US-48, US-48-500W, US-48-750W, US-8, US-8-150W, US-8-60W, USG, USG-PRO-4
-
+UAP, UAP-AC, UAP-AC-EDU, UAP–AC–IW, UAP-AC-LITE, UAP-AC-LR, UAP-AC-M, UAP-AC-M-PRO, UAP-AC Outdoor, UAP-AC-PRO, UAP-HD, UAP-IW, UAP-LR, UAP-nanoHD, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, UAP-SHD, US-16-150W, US‑16‑XG, US-24, US-24-250W, US-24-500W, US-48, US-48-500W, US-48-750W, US-8, US-8-150W, US-8-60W, USG, USG-PRO-4, USG-XG-8
 
 # Docker Ports/Firewall
 
