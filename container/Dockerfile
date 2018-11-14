@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Ventz Petkov <ventz@vpetkov.net>
+LABEL maintainer="Ventz Petkov (https://github.com/ventz/docker-unifi)"
 
 VOLUME ["/usr/lib/unifi/data"]
 EXPOSE 8080/tcp 8443/tcp 8880/tcp 8843/tcp 3478/udp 8081/tcp 8082/tcp
