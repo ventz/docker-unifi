@@ -1,5 +1,5 @@
-# Latest Release/Version: 5.9.29
-## Last Updated: 11-14-2018
+# Latest Release/Version: 5.10.19
+## Last Updated: 3-19-2019
 
 # How to run UniFi Docker Container?
 ```
@@ -37,7 +37,10 @@ https://help.ubnt.com/hc/en-us/articles/204909754-UniFi-Layer-3-methods-for-UAP-
 
 
 # Supported Products
-UAP, UAP-AC, UAP-AC-EDU, UAP–AC–IW, UAP-AC-LITE, UAP-AC-LR, UAP-AC-M, UAP-AC-M-PRO, UAP-AC Outdoor, UAP-AC-PRO, UAP-HD, UAP-IW, UAP-LR, UAP-nanoHD, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, UAP-SHD, US-16-150W, US‑16‑XG, US-24, US-24-250W, US-24-500W, US-48, US-48-500W, US-48-750W, US-8, US-8-150W, US-8-60W, USG, USG-PRO-4, USG-XG-8
+UAP, UAP-AC-EDU, UAP–AC–IW, UAP-AC-LITE, UAP-AC-LR, UAP-AC-M, UAP-AC-M-PRO, UAP-AC-PRO, UAP-HD, UAP-IW, UAP-IW-HD, UAP-LR, UAP-nanoHD, UAP-Outdoor, UAP-Outdoor+, UAP-Outdoor5, UAP-PRO, UAP-SHD, UAP‑XG, UC-CK, UCK-G2, UCK-G2-PLUS, US-16-150W, US‑16‑XG, US-24, US-24-250W, US-24-500W, US-48, US-48-500W, US-48-750W, US-8, US-8-150W, US-8-60W, USG, USG-PRO-4, USG-XG-8, US-L2-24-POE, US-L2-48-POE, US-XG-6POE, UWB‑XG, UWB‑XG‑BK
+
+# Important Notice
+Starting with UniFi Network version 5.10, the required minimum firmware for UAP/USW will be 4.0.9 and for USG will be 4.4.34
 
 # Docker Ports/Firewall
 
